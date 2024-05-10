@@ -11,7 +11,7 @@ if num >= 3 and num <= 20:
                 result.append(i)
                 result.append(j)
 
-    print(result)
+    print('Нужный пароль для', num,': ', result)
 
 else:
     print('Вы ошиблись')
